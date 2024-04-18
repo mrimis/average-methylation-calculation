@@ -15,7 +15,7 @@ You can install average_methylation directly via pip from PyPI:
 
 Alternatively, if you have access to the GitHub repository and prefer to install the latest development version, you can install it directly using:
 
-    pip install git+https://github.com/yourusername/average-methylation-calculation.git
+    pip install git+https://github.com/mrimis/average-methylation-calculation.git
 
 Usage
 
