@@ -22,11 +22,13 @@ Usage
 After installation, the package can be used to run methylation analysis workflows. Here's a basic example of how to use the package in your Python scripts:
 
     from average_methylation.methylation_analysis import run_full_pipeline
+    
     # Define the paths to your input files and output directory
     methylation_filepath = 'path/to/your/final_merged_dataset.csv'
     bed_filepath = 'path/to/your/hglft_genome_Methlylation_EPIC_GRCh38.bed'
     gene_coords_filepath = 'path/to/your/gene_coords.txt'
     output_directory = 'path/to/your/output/directory'
+    
     # Run the full methylation analysis pipeline
     run_full_pipeline(methylation_filepath, bed_filepath, gene_coords_filepath, output_directory)
 
