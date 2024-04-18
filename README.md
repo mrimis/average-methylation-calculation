@@ -1,6 +1,6 @@
 Average Methylation Calculation
 
-This Python package, average_methylation, is designed to process large datasets of methylation scores, calculate average methylation scores per gene per sample in defined windows upstream of gene start sites, and compile the results for further genomic analysis. It is intended for bioinformaticians and researchers studying epigenetic modifications.
+This Python package, average_methylation, is designed to process large datasets of methylation scores, calculate average methylation scores per gene per sample in a window size of 500kb upstream of gene start sites, and compile the results for further genomic analysis. It is intended for bioinformaticians and researchers studying epigenetic modifications.
 Features
 
     1. Split large datasets: Break down comprehensive methylation datasets into manageable parts by chromosome.
