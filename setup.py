@@ -8,7 +8,7 @@ setup(
     description='A package to calculate average methylation scores.',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    url='https://github.com/yourusername/average-methylation-calculation',
+    url='https://github.com/mrimis/average-methylation-calculation.git',
     packages=find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
